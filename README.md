@@ -21,6 +21,10 @@ $151.69
 
 ## Question 2:
 
+The SQL file for this question can be found in [Question2.sql](https://github.com/anjolinea/Shopify-Data-Science-Intern-Challenge/blob/main/Question2.sql).
+
 a) 54
+
 b) Peacock
+
 c) Boston Crab Meat
