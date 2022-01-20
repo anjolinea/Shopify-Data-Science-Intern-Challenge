@@ -6,6 +6,7 @@ On Shopify, we have exactly 100 sneaker shops, and each of these shops sells onl
 The program for this question can be found in [Question1.ipynb](https://github.com/anjolinea/Shopify-Data-Science-Intern-Challenge/blob/main/Question1.ipynb).
 
 a) Think about what could be going wrong with our calculation. Think about a better way to evaluate this data. 
+
 The original AOV value was an incredibly high value of $3145.13 which was obtained by simply taking the average of the column "order_amount". Through exploring the database, we found that there were suspiciously similar orders and an outlier store which was selling each pair of shoes at $25725.00. We removed the suspicious orders and consider the data with and without the outlier. Without the outlier and suspicious orders, the average order value looks realistic. 
 
 AOV with outlier included (real data): 754.09
