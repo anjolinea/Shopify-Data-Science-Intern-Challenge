@@ -9,6 +9,7 @@ a) Think about what could be going wrong with our calculation. Think about a bet
 The original AOV value was an incredibly high value of $3145.13 which was obtained by simply taking the average of the column "order_amount". Through exploring the database, we found that there were suspiciously similar orders and an outlier store which was selling each pair of shoes at $25725.00. We removed the suspicious orders and consider the data with and without the outlier. Without the outlier and suspicious orders, the average order value looks realistic. 
 
 AOV with outlier included (real data): 754.09
+
 AOV without outlier included (closer to median, but technically not including all entries): 302.58
 
 b) What metric would you report for this dataset?
